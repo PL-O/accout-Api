@@ -21,8 +21,8 @@ body{
 }
 
 .logo img{
-  width: 110px;
-  margin-top: 4.5%;
+  width: 150px;
+  margin-top: -13%;
   cursor: pointer;
 }
 
@@ -63,36 +63,12 @@ body{
 }
 
 .menu-section{
-    width: 50%;
-    margin-left: 25%;
+    width: 20%;
+    margin-left: 20%;
     margin-top: 2%;
     border: 1px solid silver;
+    border-radius: 30px;
     margin-bottom: 5%;
-}
-
-.menu-section a{
-    text-decoration: none;
-}
-
-.text-accout{
-    width: 100%;
-    cursor: pointer;
-    display: flex;
-    text-decoration: none;
-}
-
-.text-accout img{
-    width: 50px;
-    border-radius: 40px;
-    margin-left: 2%;
-    margin-top: 1%;
-    margin-bottom: 1%;
-}
-
-.text-accout p{
-    color: rgb(0, 0, 0);
-    font-size: 18px;
-    margin-left: 2%;
 }
 
 .img-section{
@@ -100,8 +76,15 @@ body{
 }
 
 .img-section img{
-    width: 760px;
-    height: 500px;
+    width: 280px;
+    height: auto;
+    border-radius: 20px;
+    margin-left: 5%;
+    
+}
+
+.img-section p{
+    margin-left: 2%;
 }
 
 .icon-section{
@@ -115,32 +98,10 @@ body{
     padding-top: 15px;
 }
 
-.nb-likes{
-    width: 16%;
-    margin-top: -4%;
-    color: rgb(117, 115, 115);
-    text-align: center;
-}
-
-.nb-likes h4{
-    cursor: default;
-}
-
 .text-section{
-    width: 70%;
-    margin: 5%;
-    margin-top: -3%;
-    display: flex;
-}
-
-.text-section h4{
-    cursor: default;
+    width: 100%;
 }
 
 .text-section p{
-    font-size: 15px;
-    margin-left: 2%;
-    margin-top: 4.2%;
-    color: rgb(105, 104, 104);
-    cursor: default;
+    margin-left: 5%;
 }

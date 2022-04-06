@@ -1,10 +1,10 @@
 import React from 'react'
-import PostForm from '../components/PostForm'
+import BookForm from '../components/BookForm'
 
 function Post() {
   return (
     <main>
-        <PostForm/>
+        <BookForm/>
     </main>
   )
 }
